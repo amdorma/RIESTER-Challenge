@@ -367,6 +367,7 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
+  transition: all .4s ease;
 }
 
 footer li {
@@ -389,7 +390,13 @@ footer li {
   cursor: pointer;
 }
 
+
 /* LOCATIONS */
+.address:hover, .phone:hover, .footer-link:hover {
+  color: #5daea5;
+  transition: all .4s ease;
+}
+
 #locations, #connect {
   font-size: 1.6em;
 }
