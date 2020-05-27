@@ -204,16 +204,16 @@ h2 {
   .motivation h2 {
     font-size: 1.5em;
   }
-  
+
   .sign-up {
-  border-left: solid 1px #333333;
-  margin-top: -2%;
+    border-left: solid 1px #333333;
+    margin-top: -2%;
   }
-  
+
   #email {
     width: 100%;
   }
-  
+
   #submit {
     width: 100%;
     margin-top: 3%!important;
@@ -221,7 +221,7 @@ h2 {
     padding: 0;
     margin: auto;
   }
-  
+
   #riestermail {
     font-size: 1.8em;
   }
@@ -251,12 +251,12 @@ h2 {
   margin-bottom: -5%
 }
 
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
   /* Edge */
   color: #dea20b;
 }
 
-:-ms-input-placeholder { 
+:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #dea20b;
 }
@@ -367,6 +367,7 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
+  transition: all .4s ease;
 }
 
 footer li {
@@ -389,7 +390,13 @@ footer li {
   cursor: pointer;
 }
 
+
 /* LOCATIONS */
+.address:hover, .phone:hover, .footer-link:hover {
+  color: #5daea5;
+  transition: all .4s ease;
+}
+
 #locations, #connect {
   font-size: 1.6em;
 }
@@ -488,11 +495,11 @@ main {
 /* END MAIN GRID */
 /* PHONE */
 @media screen and (max-width: 768px) {
-    /* MOBILE HAMBURGER MENU */
+  /* MOBILE HAMBURGER MENU */
   #desktop-header {
     display: none;
   }
-  
+
   #mobile-header {
     display: block;
     z-index: 7;
@@ -528,23 +535,23 @@ main {
     padding: 29px 29px 29px 29px;
     overflow: hidden;
   }
-  
+
   .topnav .icon:hover {
     background-color: #ddd;
     color: #333;
   }
   /* END HAMBURGER */
-  
+
   /* MOBILE NAV BUTTONS */
   .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0);
-  transition: all .4s ease;
-}
-  
+    background-color: rgba(0,0,0,0);
+    transition: all .4s ease;
+  }
+
   .prev, .next {
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
   }
-  
+
   .mobi-prev, .mobi-next {
     width: 40px;
   }
@@ -556,11 +563,11 @@ main {
   .mobi-prev {
     left: 5%;
   }
-  
+
   .rect {
     width: 99%;
-  }  
-  /* END MOBILE NAV BUTTONS */  
+  }
+  /* END MOBILE NAV BUTTONS */
   /* MOBILE SIGN-UP AND MOTIVATION */
   .sign-up {
     border-left: none!important;
@@ -568,29 +575,29 @@ main {
     margin: -2% 0% 10% 0%;
     padding: 10% 5%;
   }
-  
+
   .motiv-grid {
     position: relative;
     padding: 0;
     grid-template-columns: repeat(auto-fit, 100%);
   }
-  
+
   .motivation {
     margin-bottom: 10%;
     padding-top: 7%;
     padding-bottom: 5%;
   }
-  
+
   #riestermail {
     padding-bottom: 1.5%;
     font-size: 2em;
   }
-  
+
   form {
     max-width: 400px;
     margin: auto;
   }
-  
+
   .sign-up h2, .sign-up p {
     text-align: center;
   }
@@ -599,26 +606,26 @@ main {
   #rock-but{
     width: 100%;
   }
-  
+
   #hot-health {
     padding-top: 15%;
   }
-  
+
   .spicy-grid {
     grid-template-columns: repeat(auto-fill, 100%);
     grid-template-row: 1fr 1fr;
   }
-  
+
   #fiesta, .cpg-container {
     margin: auto;
     padding: 0;
   }
-  
+
   .bullets {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  
+
   #right-list {
     margin-left: 0;
   }
@@ -628,37 +635,37 @@ main {
     margin: auto;
     padding: 0;
   }
-  
+
   .foot-nav {
     display: none;
   }
-  
+
   .foot-grid {
     display: inline-block;
     grid-template-columns: repeat(auto-fit, 100%);
     margin: 0;
   }
-  
+
   .loc-group {
     margin: auto;
     padding-top: 10%;
   }
-  
+
   #locations {
     text-align: center;
   }
-  
+
   .loc-group ul {
     grid-template-columns: repeat(auto-fit, 100%);
     text-align: center;
   }
-  
+
   .con-group {
     margin: auto;
     padding: 0 0 20% 0;
     text-align: center;
   }
-  
+
   #connect {
     padding: 0;
   }
@@ -670,11 +677,11 @@ main {
   #hot-health {
     font-size: 1.5em;
   }
-  
+
   #best-thing {
     font-size: 1em;
   }
-  
+
   .bullets {
     font-size: .8em;
   }
